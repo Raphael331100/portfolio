@@ -1,7 +1,6 @@
 'use client';
 
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import { useEffect, useState } from 'react';
 
 export default function Contact() {
   const fixedStars = Array.from({ length: 50 }, () => ({

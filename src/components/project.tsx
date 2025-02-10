@@ -9,7 +9,7 @@ interface ProjectProps {
     index: number;
 }
 
-export default function Project({ project, index }: ProjectProps) {
+export default function Project({ project }: ProjectProps) {
     return (
         <div className="flex justify-center w-full">
             {/* Conteneur du projet */}

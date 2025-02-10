@@ -1,9 +1,22 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { IconType } from 'react-icons';
 import { FaReact, FaNode, FaDocker, FaPython, FaGitAlt, FaLinux, FaPhp } from 'react-icons/fa';
 import { SiTypescript, SiCplusplus, SiC } from 'react-icons/si';
 import skillsData from '../data/skills.json';
+
+const skillIcons: Record<string, IconType> = {
+    "React": FaReact,
+    "TypeScript": SiTypescript,
+    "Node.js": FaNode,
+    "Python": FaPython,
+    "C++": SiCplusplus,
+    "C": SiC,
+    "PHP": FaPhp,
+    "Docker": FaDocker,
+    "Git": FaGitAlt,
+    "Linux": FaLinux
+};
 
 export default function Skills() {
     const fixedStars = Array.from({ length: 50 }, () => ({
@@ -12,19 +25,6 @@ export default function Skills() {
         left: Math.random() * 100,
         size: Math.random() * 2
     }));
-
-    const skillIcons = {
-        "React": FaReact,
-        "TypeScript": SiTypescript,
-        "Node.js": FaNode,
-        "Python": FaPython,
-        "C++": SiCplusplus,
-        "C": SiC,
-        "PHP": FaPhp,
-        "Docker": FaDocker,
-        "Git": FaGitAlt,
-        "Linux": FaLinux
-    };
 
     return (
         <section id="skills" className="relative w-full min-h-[60vh] bg-black overflow-hidden">

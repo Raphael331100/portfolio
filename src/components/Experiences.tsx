@@ -1,6 +1,5 @@
 'use client';
 
-import { useEffect, useState } from 'react';
 import Experience from './experience';
 import experiencesData from "../data/experiences.json";
 

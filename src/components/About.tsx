@@ -91,10 +91,10 @@ export default function About() {
         
         <div className="flex flex-col gap-12 px-10 md:w-2/3 md:pl-24 text-white">
           <div className="flex flex-col gap-5">
-            <h2 className="text-4xl font-bold md:text-6xl">Hi, I'm Raphaël</h2>
+            <h2 className="text-4xl font-bold md:text-6xl">Hi, I&apos;m Raphaël</h2>
             <p className="text-sm text-gray-300 md:text-base">
-              I'm a 20-year-old junior developer studying at Epitech Bordeaux, currently enrolled in their Grande École program. <br />
-              With 5 years of experience in computer science, I'm passionate about cybersecurity and the blockchain ecosystem.
+            I&apos;m a 20-year-old junior developer studying at Epitech Bordeaux, currently enrolled in their Grande École program. <br />
+              With 5 years of experience in computer science, I&apos;m passionate about cybersecurity and the blockchain ecosystem.
             </p>
           </div>
           

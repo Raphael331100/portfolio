@@ -1,35 +1,15 @@
 'use client';
 
-import { useEffect, useState } from 'react';
 import Project from "./project";
 import projectsData from "../data/projects.json";
 
 export default function Projects() {
-
     const fixedStars = Array.from({ length: 100 }, () => ({
         id: Math.random(),
         top: Math.random() * 100,
         left: Math.random() * 100,
         size: Math.random() * 2
     }));
-
-    const [shootingStars, setShootingStars] = useState<Array<{ id: number; top: number; delay: number }>>([]);
-
-    useEffect(() => {
-        const createShootingStar = () => ({
-            id: Math.random(),
-            top: Math.random() * 100,
-            delay: Math.random() * 2
-        });
-
-        setShootingStars(Array.from({ length: 3 }, () => createShootingStar()));
-
-        const interval = setInterval(() => {
-            setShootingStars(Array.from({ length: 3 }, () => createShootingStar()));
-        }, 4000);
-
-        return () => clearInterval(interval);
-    }, []);
 
     return (
         <section id="projects" className="relative w-full min-h-screen bg-black overflow-hidden">
@@ -59,13 +39,12 @@ export default function Projects() {
                 </div>
 
                 <div className="relative flex flex-col gap-12 mt- w-full max-w-8xl">
-
                     {/* Projects */}
                     {projectsData.map((project, index) => (
                         <Project 
                             key={index} 
-                            project={project} 
-                            index={index} 
+                            project={project}
+                            index={index}
                         />
                     ))}
                 </div>
