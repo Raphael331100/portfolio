@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "date": "2023 - 2024",
+        "title": "Full Stack Developer Assistant",
+        "company": "Homifab",
+        "description": "Creation of tools to improve CRM processes, including a customer ticket centralization system."
+    },
+    {
+        "id": 2,
+        "date": "2024 - 2025",
+        "title": "Salesforce Developer Assistant",
+        "company": "ZDigital",
+        "description": "Development and maintenance of Salesforce projects: bug fixing, code optimization to comply with Governor Limits and improvement of existing features."
+    }
+]

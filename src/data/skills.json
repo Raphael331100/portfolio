@@ -1,0 +1,42 @@
+[
+    {
+        "name": "React",
+        "icon": "FaReact"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "SiTypescript"
+    },
+    {
+        "name": "Node.js",
+        "icon": "FaNode"
+    },
+    {
+        "name": "Python",
+        "icon": "FaPython"
+    },
+    {
+        "name": "C++",
+        "icon": "SiCplusplus"
+    },
+    {
+        "name": "C",
+        "icon": "SiC"
+    },
+    {
+        "name": "PHP",
+        "icon": "FaPhp"
+    },
+    {
+        "name": "Docker",
+        "icon": "FaDocker"
+    },
+    {
+        "name": "Git",
+        "icon": "FaGitAlt"
+    },
+    {
+        "name": "Linux",
+        "icon": "FaLinux"
+    }
+]

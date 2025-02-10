@@ -1,0 +1,16 @@
+[
+    {
+        "title": "AREA",
+        "description": "Development of an automation platform that interconnects various services through actions and reactions, similar to IFTTT or Zapier.",
+        "technologies": ["Docker", "REST API", "OAuth2", "Node.js", "React", "Mobile Android"],
+        "github": "https://github.com/votre-repo-action-reaction",
+        "demo": "https://votre-demo-action-reaction.com"
+    },
+    {
+        "title": "R-TYPE",
+        "description": "A network game inspired by R-Type, developed in C++ with a multi-threaded server and a graphical client.",
+        "technologies": ["C++", "CMake", "UDP", "SFML"],
+        "github": "https://github.com/votre-repo-rtype",
+        "demo": "https://votre-demo-rtype.com"
+    }
+]
