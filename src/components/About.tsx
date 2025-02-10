@@ -68,8 +68,8 @@ export default function About() {
       <div className="relative z-10 flex w-full min-h-screen flex-col items-center justify-center gap-20 md:flex-row-reverse">
         <div className="flex items-center justify-center md:w-1/3">
           <div className="w-3/6 md:h-2/5 md:w-3/5 relative group">
-            <Image 
-              src="/images/cat.png" 
+          <Image 
+              src="/portfolio/images/cat.png" // Ajout du préfixe /portfolio
               alt="Profile picture" 
               width={400}
               height={400}
@@ -80,7 +80,7 @@ export default function About() {
               <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-white dark:bg-gray-800 rotate-45"></div>
             </div>
             <Image 
-              src="/images/cat.png" 
+              src="/portfolio/images/cat.png" // Ajout du préfixe /portfolio
               alt="Profile picture" 
               width={400}
               height={400}
